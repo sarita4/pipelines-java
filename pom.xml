@@ -15,6 +15,12 @@
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
+	  <!-- https://mvnrepository.com/artifact/org.sonarsource.scanner.maven/sonar-maven-plugin -->
+<dependency>
+<groupId>org.sonarsource.scanner.maven</groupId>
+<artifactId>sonar-maven-plugin</artifactId>
+<version>3.2</version>
+</dependency>
   </dependencies>
 
   <build>
@@ -61,7 +67,24 @@
 			</plugin>
     </plugins>
   </build>
-
+	
+<profiles>
+<profile>
+<id>sonar</id>
+<activation>
+<activeByDefault>true</activeByDefault>
+</activation>
+<properties>
+<!-- Optional URL to server. Default value is http://localhost:9000 -->
+<sonar.host.url>
+http://sonarqube.westindia.cloudapp.azure.com:9000/sonarqube
+</sonar.host.url>
+<sonar.host.username> admin </sonar.host.username>
+<sonar.host.password> admin </sonar.host.password>
+</properties>
+</profile>
+</profiles>
+	
   <properties>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
