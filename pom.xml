@@ -79,8 +79,8 @@
 <sonar.host.url>
 http://sonarqube.westindia.cloudapp.azure.com:9000/sonarqube
 </sonar.host.url>
-<sonar.host.username> admin </sonar.host.username>
-<sonar.host.password> admin </sonar.host.password>
+<sonar.login>2e3ccef83ab56d29c0f8802d4c1c554645dc037e</sonar.login>
+
 </properties>
 </profile>
 </profiles>
