@@ -78,9 +78,9 @@
 <properties>
 <!-- Optional URL to server. Default value is http://localhost:9000 -->
 <sonar.host.url>
-http://sonarqube.westindia.cloudapp.azure.com:9000/sonarqube
+http://ase1pr-itci-009.corp.evolenthealth.com:8443/sonarqube
 </sonar.host.url>
-<sonar.login>2e3ccef83ab56d29c0f8802d4c1c554645dc037e</sonar.login>
+<sonar.login>f90cb80786981dc8c887440f4aa6f4ffa3115c25</sonar.login>
 
 </properties>
 </profile>
