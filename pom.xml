@@ -77,7 +77,7 @@
 <properties>
 <!-- Optional URL to server. Default value is http://localhost:9000 -->
 <sonar.host.url>
-http://ase1pr-itci-009.corp.evolenthealth.com:8443/sonarqube
+http://sonarqube.corp.evolenthealth.com:8443/
 </sonar.host.url>
 <sonar.login>f90cb80786981dc8c887440f4aa6f4ffa3115c25</sonar.login>
 
